@@ -1,0 +1,261 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:id="@+id/activity_header_linearlayout"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/white"
+    android:clickable="true"
+    android:focusable="true"
+    android:foreground="?attr/selectableItemBackgroundBorderless"
+    android:theme="@style/ThemeOverlay.AppCompat.Dark"
+    >
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+
+        <TableLayout
+            android:id="@+id/tableLayout1"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:background="#eeeeee"
+            >
+
+            <TableRow
+                android:id="@+id/tableRow1"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:paddingBottom="1dp"
+             >
+
+
+                <Button
+
+                    android:id="@+id/hom_btn_order_product"
+                    android:layout_width="0dip"
+                    android:layout_height="match_parent"
+                    android:layout_marginEnd="0.5dp"
+                    android:layout_marginRight="0.5dp"
+                    android:layout_weight="1"
+                    android:background="@drawable/ic_launcher_foreground"
+                    android:drawableTop="@drawable/img4"
+                    android:drawablePadding="0dp"
+                    android:paddingTop="10dp"
+                    android:text="Order product"
+                    android:textColor="#555555"
+                    app:backgroundTint="#ffffff"
+                    app:backgroundTintMode="add" />
+
+                <Button
+
+                    android:id="@+id/hom_btn_change_UPC"
+                    android:layout_width="0dip"
+                    android:layout_height="match_parent"
+                    android:layout_marginEnd="0.5dp"
+                    android:layout_marginRight="0.5dp"
+                    android:layout_weight="1"
+                    android:background="@drawable/ic_launcher_foreground"
+                    android:drawableTop="@drawable/img3"
+                    android:drawablePadding="0dp"
+                    android:paddingTop="10dp"
+                    android:text="Change upc"
+                    android:textColor="#555555"
+                    app:backgroundTint="#ffffff"
+                    app:backgroundTintMode="add" />
+
+                <Button
+
+                    android:id="@+id/hom_btn_search_product"
+                    android:layout_width="0dip"
+                    android:layout_height="match_parent"
+                    android:layout_marginEnd="0.5dp"
+                    android:layout_marginRight="0.5dp"
+                    android:layout_weight="1"
+                    android:background="@drawable/ic_launcher_foreground"
+                    android:drawableTop="@drawable/search_red_32dp"
+                    android:drawablePadding="0dp"
+                    android:padding="10dp"
+                    android:text="Search product"
+                    android:textColor="#555555"
+                    app:backgroundTint="#ffffff"
+                    app:backgroundTintMode="add" />
+
+                <Button
+                    android:id="@+id/hom_btn_change_status"
+                    android:layout_width="0dip"
+                    android:layout_height="match_parent"
+                    android:layout_marginEnd="0.5dp"
+                    android:layout_marginRight="0.5dp"
+                    android:layout_weight="1"
+                    android:background="@drawable/ic_launcher_foreground"
+                    android:drawableTop="@drawable/img2"
+                    android:drawablePadding="0dp"
+                    android:padding="10dp"
+                    android:textColor="#555555"
+                    app:backgroundTint="#ffffff"
+                    app:backgroundTintMode="add" />
+
+            </TableRow>
+
+            <TableRow
+                android:id="@+id/tableRow2"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:paddingBottom="1dp"
+
+                >
+
+                <Button
+
+                    android:id="@+id/hom_btn_given"
+                    android:layout_width="0dip"
+                    android:layout_height="wrap_content"
+                    android:layout_marginEnd="0.5dp"
+                    android:layout_marginRight="0.5dp"
+                    android:layout_weight="1"
+                    android:background="@drawable/ic_launcher_foreground"
+                    android:drawableTop="@drawable/ic_menu_camera"
+                    android:drawablePadding="0dp"
+                    android:text="given"
+                    android:textColor="#555555"
+                    app:backgroundTint="#ffffff"
+                    app:backgroundTintMode="add" />
+
+                <Button
+
+                    android:id="@+id/hom_btn_receive_instore"
+                    android:layout_width="0dip"
+                    android:layout_height="match_parent"
+                    android:layout_marginEnd="0.5dp"
+                    android:layout_marginRight="0.5dp"
+                    android:layout_weight="1"
+
+                    android:background="@drawable/ic_launcher_foreground"
+                    android:drawableTop="@drawable/ic_menu_camera"
+                    android:drawablePadding="0dp"
+                    android:text="Receive in store"
+                    android:textColor="#555555"
+                    app:backgroundTint="#ffffff"
+                    app:backgroundTintMode="add" />
+
+                <Button
+
+                    android:id="@+id/hom_btn_complete_store"
+                    android:layout_width="0dip"
+                    android:layout_height="match_parent"
+                    android:layout_marginEnd="0.5dp"
+                    android:layout_marginRight="0.5dp"
+                    android:layout_weight="1"
+
+                    android:background="@drawable/ic_launcher_foreground"
+                    android:drawableTop="@drawable/ic_menu_camera"
+                    android:drawablePadding="0dp"
+                    android:padding="10dp"
+                    android:text="Complete Store"
+                    android:textColor="#555555"
+                    app:backgroundTint="#ffffff"
+                    app:backgroundTintMode="add" />
+
+                <Button
+
+                    android:id="@+id/hom_btn_faild"
+                    android:layout_width="0dip"
+                    android:layout_height="match_parent"
+                    android:layout_marginEnd="0.5dp"
+                    android:layout_marginRight="0.5dp"
+                    android:layout_weight="1"
+                    android:background="@drawable/ic_launcher_foreground"
+                    android:drawableTop="@drawable/ic_menu_camera"
+                    android:drawablePadding="0dp"
+                    android:text="Faild"
+                    android:textColor="#555555"
+                    app:backgroundTint="#ffffff"
+                    app:backgroundTintMode="add" />
+
+            </TableRow>
+
+            <TableRow
+                android:id="@+id/tableRow3"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+               >
+
+                <Button
+
+                    android:id="@+id/hom_btn_back_to_stock"
+                    android:layout_width="0dip"
+                    android:layout_height="match_parent"
+                    android:layout_marginEnd="0.5dp"
+                    android:layout_marginRight="0.5dp"
+                    android:layout_weight="1"
+
+                    android:background="@drawable/ic_launcher_foreground"
+                    android:drawableTop="@drawable/ic_menu_camera"
+                    android:drawablePadding="0dp"
+                    android:text="Back to stock"
+                    android:textColor="#555555"
+                    app:backgroundTint="#ffffff"
+                    app:backgroundTintMode="add" />
+
+                <Button
+
+                    android:id="@+id/hom_btn_received_in_stock"
+                    android:layout_width="0dip"
+                    android:layout_height="match_parent"
+                    android:layout_marginEnd="0.5dp"
+                    android:layout_marginRight="0.5dp"
+                    android:layout_weight="1"
+                    android:background="@drawable/ic_launcher_foreground"
+                    android:drawableTop="@drawable/ic_menu_camera"
+                    android:text="Received in stock"
+                    android:textColor="#555555"
+                    app:backgroundTint="#ffffff"
+                    app:backgroundTintMode="add" />
+
+                <Button
+
+                    android:layout_width="0dip"
+                    android:layout_height="wrap_content"
+                    android:layout_marginEnd="0.5dp"
+                    android:layout_marginRight="0.5dp"
+                    android:layout_weight="1"
+                    android:background="@drawable/ic_launcher_foreground"
+                    android:drawableTop="@drawable/ic_menu_camera"
+                    android:text="heloo"
+                    android:textColor="#555555"
+                    android:visibility="invisible"
+                    app:backgroundTint="#ffffff"
+                    app:backgroundTintMode="add" />
+
+                <Button
+
+                    android:layout_width="0dip"
+                    android:layout_height="wrap_content"
+                    android:layout_marginEnd="0.5dp"
+                    android:layout_marginRight="0.5dp"
+                    android:layout_weight="1"
+                    android:background="@drawable/ic_launcher_foreground"
+                    android:drawableTop="@drawable/ic_menu_camera"
+                    android:text="heloo"
+                    android:textColor="#555555"
+                    android:visibility="invisible"
+                    app:backgroundTint="#ffffff"
+                    app:backgroundTintMode="add" />
+            </TableRow>
+
+        </TableLayout>
+
+        <TextView
+            android:id="@+id/textView"
+            android:layout_width="match_parent"
+            android:layout_height="1dp"
+            android:background="#2A555555"
+            android:text="TextView" />
+
+    </LinearLayout>
+
+</RelativeLayout>
+
+
